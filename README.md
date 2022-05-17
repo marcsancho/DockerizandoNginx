@@ -25,7 +25,7 @@ Aqui tenemos el resultado
 
 ![image](https://user-images.githubusercontent.com/91566044/168892543-5b58a672-3d25-4146-93ae-a05dea8a2f93.png)<br>
 
-##Crear imagen personalizada
+## Crear imagen personalizada
 Para ello usaremos `Dockerfile`, creando asi un archivo en la carpeta anterior y insertando en el el siguiente contenido:<br>
 ![image](https://user-images.githubusercontent.com/91566044/168892795-b96bc97b-2d60-493b-904a-1340f292c84d.png)<br>
 
