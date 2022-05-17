@@ -19,18 +19,14 @@ Posteriormente se nos abrira la pagina inicial de nginx<br>
 ##Configuración de Nginx
 Empezaremos creando una carpeta con el nombre Nginx en documentos, y en ella crearemos una subcarpeta llamada site-content para alojar nuestro html.<br>
 Alli creamos el archivo html<br>
-``<div><!DOCTYPE html>
-<html lang="ES">
+![image](https://user-images.githubusercontent.com/91566044/168892419-07dfb5f5-e726-4c01-9b74-3c18e9c6b788.png)<br>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DockerizandoNginx</title>
-</head>
+Aqui tenemos el resultado
 
-<body>
-    <h1>Marc Sancho Santandreu</h1>
-</body>
+![image](https://user-images.githubusercontent.com/91566044/168892543-5b58a672-3d25-4146-93ae-a05dea8a2f93.png)<br>
 
-</html></div>"``
+##Crear imagen personalizada
+Para ello usaremos `Dockerfile`, creando asi un archivo en la carpeta anterior y insertando en el el siguiente contenido:<br>
+![image](https://user-images.githubusercontent.com/91566044/168892795-b96bc97b-2d60-493b-904a-1340f292c84d.png)<br>
+
+El comando `FROM` extraera la ultima imagen de nginx, y asi se crear nuestra nueva imagen, la cual podremos correr donde queramos.
