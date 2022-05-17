@@ -19,7 +19,7 @@ Posteriormente se nos abrira la pagina inicial de nginx<br>
 ##Configuración de Nginx
 Empezaremos creando una carpeta con el nombre Nginx en documentos, y en ella crearemos una subcarpeta llamada site-content para alojar nuestro html.<br>
 Alli creamos el archivo html<br>
-`<!DOCTYPE html>
+``<!DOCTYPE html>
 <html lang="ES">
 
 <head>
@@ -33,4 +33,4 @@ Alli creamos el archivo html<br>
     <h1>Marc Sancho Santandreu</h1>
 </body>
 
-</html>`
+</html>``
